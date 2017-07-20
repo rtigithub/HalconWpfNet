@@ -13,7 +13,7 @@
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <HalconDotNet:HSmartWindowControlWPF x:Name="HalconSmartWindow" Grid.Column="1" Margin="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.598,-0.438" MinWidth="200" MinHeight="150" Initialized="HalconSmartWindow_Initialized" ScrollViewer.VerticalScrollBarVisibility="Disabled" />
+            <HalconDotNet:HSmartWindowControlWPF x:Name="HalconSmartWindow" Grid.Column="1" Margin="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.598,-0.438" MinWidth="200" MinHeight="150" Initialized="HalconSmartWindow_Initialized" ScrollViewer.VerticalScrollBarVisibility="Disabled" HMoveContent="False" MouseMove="HalconSmartWindow_MouseMove" />
             <StackPanel Margin="0,0,10,0" VerticalAlignment="Center" RenderTransformOrigin="-0.318,-0.87">
                 <Button x:Name="ButtonReadImage" Content="Read Image ..." Margin="0,10" Click="ButtonReadImage_Click" />
             </StackPanel>

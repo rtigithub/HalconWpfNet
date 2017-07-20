@@ -6,9 +6,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("HalconWpfNet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple Halcon C# Wpf Example")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Resolution Technology, Inc.")]
 [assembly: AssemblyProduct("HalconWpfNet")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
